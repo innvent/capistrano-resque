@@ -1,4 +1,4 @@
-require "capistrano"
+require "capistrano/all"
 require "capistrano/version"
 
 module CapistranoResque

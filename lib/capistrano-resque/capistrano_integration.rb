@@ -172,6 +172,6 @@ module CapistranoResque
   end
 end
 
-if Capistrano::Configuration.instance
-  CapistranoResque::CapistranoIntegration.load_into(Capistrano::Configuration.instance)
-end
+# if Capistrano::Configuration.instance
+#   CapistranoResque::CapistranoIntegration.load_into(Capistrano::Configuration.instance)
+# end
